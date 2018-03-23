@@ -1,0 +1,17 @@
+<% provide(:title, "About") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | <%= t "title"%></title>
+  </head>
+  <body>
+    <h1><%= t "layouts._footer.about"%></h1>
+    <p>
+      <%= t ".the"%> <a href="http://www.railstutorial.org/"><em> <%= t "rortutorial"%></em></a> <%= t ".isa"%>
+      <a href="http://www.railstutorial.org/book"> <%= t ".book"%></a> <%= t ".and"%>
+      <a href="http://screencasts.railstutorial.org/"> <%= t ".sseries"%></a>
+      <%= t ".tosth"%> <a href="http://rubyonrails.org/"> <%= t "ror"%></a>.
+       <%= t ".thisis"%>
+    </p>
+  </body>
+</html>
