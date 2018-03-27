@@ -4,6 +4,8 @@ en:
   title: "Ruby on Rails Tutorial Sample App"
   ror: "Ruby on Rails"
   contact: "Contact"
+  can_not_find_user: "Can not find user"
+  create_user: "Error! Please create user!"
 
   static_pages:
     home:
@@ -46,3 +48,7 @@ en:
     new:
       signup: "Sign up"
       str: "This will be a signup page for new users."
+
+  shared:
+    _error_messages:
+      str: "The form contains"
